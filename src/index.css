@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "BrawlStarsExtraBlack";
+  src: local("BrawlStarsExtraBlack"),
+    url("./fonts/Nougat-ExtraBlack.ttf") format("truetype");
+  /* font-weight: bold; */
+}
+
+@font-face {
+  font-family: "BrawlStarsInGame";
+  src: local("BrawlStarsInGame"),
+    url("./fonts/LilitaOne-Regular.ttf") format("truetype");
+  /* font-weight: bold; */
+}
