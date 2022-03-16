@@ -1,5 +1,11 @@
 .bodyNoMargin {
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    overflow: hidden;
+  }
 }

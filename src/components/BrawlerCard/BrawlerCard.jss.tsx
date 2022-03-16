@@ -13,9 +13,12 @@ export const stylesBrawlerCard = createUseStyles({
     },
     height: "fit-content",
     flex: "0 0 10%",
-    minWidth: 150,
+    minWidth: 120,
     "@media (min-width: 1000px)": {
-      minWidth: "230px",
+      minWidth: "200px",
+    },
+    "@media (min-width: 2000px)": {
+      maxWidth: "200px",
     },
     // boxShadow: 4px 3px 8px 1px #969696;
     // -webkit-box-shadow: 4px 3px 8px 1px #969696;
