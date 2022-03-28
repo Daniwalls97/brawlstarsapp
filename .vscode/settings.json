@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/dc5f6e87-a26d-46e3-a939-7d74e40b62c8/resourceGroups/Grupo-1/providers/Microsoft.Web/sites/test-brawl",
+    "appService.deploySubpath": "build"
+}

@@ -103,7 +103,7 @@ const Brawlers = () => {
     <div>
       {rarities !== undefined && <TypesBar types={rarities} />}
       <div className={classes.container}>
-        <ClipLoader color={"#e61919"} loading={loading} size={100} />
+        <ClipLoader color={"#ffe65d"} loading={loading} size={100} />
 
         {filteredList.length > 0 && (
           <BrawlersList

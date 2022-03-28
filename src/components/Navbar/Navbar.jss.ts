@@ -45,4 +45,19 @@ export const stylesNavbar = createUseStyles({
       width: "100%",
     },
   },
+
+  searchBarMobile: {
+    display: "none",
+    "@media (max-width: 960px)": {
+      display: "flex",
+      width: "100%",
+    },
+  },
+
+  searchBarNoMobile: {
+    display: "none",
+    "@media (min-width: 960px)": {
+      display: "flex",
+    },
+  },
 });

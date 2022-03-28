@@ -12,10 +12,10 @@ export const OptionList = (props: ITitleProps) => {
   const classes = stylesOptions();
 
   return (
-    // <li className={classes.myLi}>
-    <Link to={props.link} className={classes.option}>
-      {props.text}
-    </Link>
-    //</li>
+    <li className={classes.myLi}>
+      <Link to={props.link} className={classes.option}>
+        {props.text}
+      </Link>
+    </li>
   );
 };
